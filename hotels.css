@@ -6,14 +6,25 @@ body { background-color: grey;}
     
 
 header { font-size: 50px;
-         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Courgette', cursive;
          text-align: center;
          text-decoration: underline;
+         color: whitesmoke;
         
 }
 
+#bg{width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: -1000;
+        filter: brightness(50%);
+    
+}
+    
+
 #sec1 { display: flex;
         width: 95%;
+        color: whitesmoke;
 }
 
 #div1 { width: 40%; } 
@@ -21,9 +32,10 @@ header { font-size: 50px;
 #div2 { width: 60%;}
 
 .para { margin-top: -20px;
-        
+        font-family: 'Courgette', cursive;
         margin-left: 90px;
         font-size: 20px;
+        color: whitesmoke;
 }
 
 #pic1 { width: 400px;
@@ -35,7 +47,8 @@ header { font-size: 50px;
 }
 
 #div3 { text-align: center;
-       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Courgette', cursive;
+      color: whitesmoke;
        font-size: 50px;
        text-decoration: underline;
 }
@@ -47,8 +60,9 @@ header { font-size: 50px;
 
 article { width: 25%;
           font-size: 30px;
-          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-family: 'Courgette', cursive;
           text-align: center;
+          color: whitesmoke;
 }
 
 .pics { width: 350px;
@@ -66,9 +80,10 @@ article { width: 25%;
 #formheader { text-align: center;
               text-decoration: underline;
               font-size: 30px;
-              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              font-family: 'Courgette', cursive;     
               position: relative;
               bottom: 30px;
+              color: whitesmoke;
               
 }
 
@@ -79,5 +94,6 @@ input{border-radius: 5px;}
 #div4 { display: flex;
         justify-content: center;
         margin-bottom: 15px;
+        color: whitesmoke;
 }
 
