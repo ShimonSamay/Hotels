@@ -22,8 +22,12 @@ header { font-size: 50px;
 
 #div2 { width: 60%;}
 
-.para { margin-left: 20px;
+.para { margin-left: 28px;
         width: 350px;
+        overflow: scroll;
+        margin-top: 20px;
+        height: 400px;
+
 }
 
 #pic1 { width: 450px;
@@ -45,10 +49,11 @@ header { font-size: 50px;
         justify-content: space-between;
     }
 
-article { width: 22%;
+article { width: -3%;
           font-size: 30px;
           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
           text-align: center;
+          margin-left: 18px;
 }
 
 .pics { width: 200px;

@@ -4,15 +4,13 @@
 }
 
 
-body { background-color: grey;
-       
-       
-}
+body { background-color: grey;}
 
 header { background-color: grey;
          text-align: center;
          font-size: 40px;
          color: black;
+         font-family: 'Courgette', cursive;
          
 }
 
@@ -28,6 +26,13 @@ ul { display: flex;
      
 }
 
+#bg{width: 100vw;
+    height: 100vh;
+    position: fixed;
+    filter: brightness(50%);
+
+}
+
 a:visited {color: black;}
 
 #santosimg {height: 87%;}
@@ -36,13 +41,14 @@ a:visited {color: black;}
                   animation-duration: 3s;
                   animation-iteration-count: infinite;
                   animation-delay: 1s;
+                  transition: 0.3s ease-in-out;
                   
                    
 }
 
 .link-animation:hover {font-size: 45px;
                        opacity: 0.8;
-                       transition: 0.3s ease-in-out;
+                       
                        
                        
 }
@@ -85,7 +91,7 @@ section { width: 100%;
 }
 
 .hotel:hover { border: solid black 5px;
-               transition: 0.1s ease-in-out;
+               transition: 0.5s ease-in-out;
 
 }
 
@@ -99,7 +105,9 @@ section { width: 100%;
 
 img { width: 100%; }
 
-#sec2header { text-align: center;}
+#sec2header { text-align: center;
+              text-decoration: underline;
+}
 
 #sec2 { width: 100%;
         display: flex;
@@ -125,12 +133,13 @@ img { width: 100%; }
 }
 
 .events:hover { border: solid 5px black;
-                transition: 0.1s ease-in-out;
+                transition: 0.5s ease-in-out;
 
 }
 
 #formheader {font-size: 30px;
              text-align: center;
+             text-decoration: underline;
 }
 
 #formsec { display: flex;
